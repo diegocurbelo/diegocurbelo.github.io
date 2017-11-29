@@ -1,0 +1,26 @@
+title: Diego's blog
+email: diego@curbelo.com
+description: Just some geeky notes
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://diego.curbelo.com" # the base hostname & protocol for your site, e.g. http://example.com
+
+markdown: kramdown
+# highlighter: pygments
+permalink: /:year/:title
+
+plugins:
+  - jekyll-feed
+
+twitter_username: jekyllrb
+github_username:  jekyll
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
